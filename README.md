@@ -6,6 +6,7 @@ Investigate Stage - </br>
 + Currently Testing basic host template to understand fundamentals
 
 Design Stage - </br>
++ Decided file host platform will encrypt files using one time pad, then decrypt the file for one time use, before eliminating it from the server
 
 Create Stage - </br>
 
