@@ -11,6 +11,6 @@ Small project between myself and other collaborators</br>
 + Once file is uploaded, front end provides link which will be only point of access. Once link is visited, it will terminate.
 
 ### Create Stage - </br>
-+ Local Server currently hosted on MAMP
++ MAMP server has been replaced with Django webserver
 
 ### Evaluate Stage -
