@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>FileHostPlatform</title>
+    <link rel="stylesheet" href="{% static '/css/theme.css' %}">
+    <h1>FileHost</h1>
+</head>
+<body>
+   
+    <div class="upload-box">
+    <form method="POST" enctype="multipart/form-data">
+        {%csrf_token%}
+    <input type="file" name="document"/>
+    <button type="submit">Upload file</button>
+    </form>
+    </div>
+</body>
+<footer>
+        <script type="text/javascript" src="{% static '/javascript/script.js' %}"></script>    
+</footer>
+</html>
