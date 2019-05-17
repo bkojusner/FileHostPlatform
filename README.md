@@ -12,5 +12,6 @@ Small project between myself and other collaborators</br>
 
 ### Create Stage - </br>
 + MAMP server has been replaced with Django webserver
++ Upload webapp is working. Only for single file uploads
 
 ### Evaluate Stage -
